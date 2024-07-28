@@ -9,8 +9,9 @@
         row-gap: 40px;
     }
     &__photo {
+        padding-left: 9px;
         grid-row: 1/3;
-        //background-image: url("../../img/inform.jpg");
+        background-image: url("../../img/inform.jpg");
         //background-image: url("../../img/learn_cisheader.jpg");
         //background-size: cover;
         //background-size: contain;
@@ -19,7 +20,8 @@
         img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain;
+            box-sizing: unset;
         }
     }
     &__descr {
