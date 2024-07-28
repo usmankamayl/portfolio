@@ -3,6 +3,7 @@
     position: relative;
     background: url('../img/bg.png') no-repeat 50%/cover;
     padding-top: 205px;
+    padding-bottom: 20px;
     &__header {
         display: flex;
         flex-direction: column;
@@ -80,6 +81,9 @@
         font-weight: bold;
         display: inline-block;
         text-align: center;
+        &.q {
+            font-style: italic;
+        }
     }
 }
 

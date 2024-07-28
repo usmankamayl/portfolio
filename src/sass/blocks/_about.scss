@@ -37,6 +37,11 @@
         margin-top: 20px;
         font-size: 14px;
         line-height: 21px;
+        &.q {
+            font-style: italic;
+            font-size: 18px;
+            display: block;
+        }
     }
     &__skills {
         display: grid;
